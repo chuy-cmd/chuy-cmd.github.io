@@ -1,0 +1,108 @@
+/* ====== Estilos Generales ====== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ====== Cabecera ====== */
+h1 {
+  text-align: center;
+  color: #4A2C9A;
+  margin: 20px 0;
+}
+
+/* ====== Navegación ====== */
+nav {
+  background: #4A2C9A;
+  padding: 10px;
+}
+nav h3 {
+  color: #fff;
+  margin: 0 0 5px;
+}
+nav ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Secciones ====== */
+section {
+  padding: 20px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ====== Imágenes ====== */
+img {
+  border-radius: 8px;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* ====== Listas ====== */
+ul, ol {
+  margin: 10px 20px;
+}
+li {
+  margin-bottom: 5px;
+}
+
+/* ====== Tabla ====== */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #fff;
+}
+table caption {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #4A2C9A;
+}
+th {
+  background: #4A2C9A;
+  color: #fff;
+  padding: 8px;
+}
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* ====== Iframe ====== */
+iframe {
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #4A2C9A;
+  border-radius: 8px;
+}
+
+/* ====== Pie de página ====== */
+footer {
+  background: #4A2C9A;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
