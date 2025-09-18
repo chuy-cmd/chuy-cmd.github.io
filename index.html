@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>saber hacer 1</title>
+
+</head>
+<body>
+  <!-- CABECERA con un único style permitido -->
+  <h1 style="color:#4A2C9A; font-family:Arial,Helvetica,sans-serif;">Mi página de ejemplo (sin CSS externo)</h1>
+
+  <!-- NAVEGACIÓN/simple anchors para mostrar estructura -->
+  <nav>
+    <h3>Índice</h3>
+    <ol>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#hobbies">Pasatiempos</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ol>
+  </nav>
+
+  <!-- Introducción / párrafos -->
+  <section>
+    <h2>Sobre esta página</h2>
+    <p>Ejemplo breve que muestra cómo usar HTML puro para estructurar información sin usar CSS en &lt;style&gt; ni archivos externos.</p>
+    <p>Se usan atributos HTML clásicos para alineación / tamaño cuando hace falta.</p>
+  </section>
+
+  <!-- IMÁGENES -->
+  <section>
+    <h2>Imágenes</h2>
+    <p>Imagen con atributo width/height (sin usar CSS):</p>
+    <img src="caballerito.jpg.webp" alt="mi foto" width="200" height="120">
+  </section>
+
+  <!-- HIPERVÍNCULOS -->
+  <section>
+    <h2>Hipervínculos</h2>
+    <ul>
+      <li><a href="https://es.wikipedia.org/wiki/HTML" target="_blank">HTML en Wikipedia</a></li>
+      <li><a href="#hobbies">Ir a la sección de pasatiempos (ancla interna)</a></li>
+      <li><a href="mailto:usuario@ejemplo.com">Enviar un correo</a></li>
+    </ul>
+  </section>
+
+  <!-- LISTAS (ol/ul) - Pasatiempos -->
+    <p>Lista ordenada (ol) con breves descripciones:</p>
+    <ol>
+      <li>Leer — Me ayuda a relajarme y aprender cosas nuevas.</li>
+      <li>Programar — Hacer scripts y automatizaciones pequeñas.</li>
+      <li>Deporte — Salir a correr o jugar fútbol.</li>
+    </ol>
+  </section>
+
+  <!-- TABLAS -->
+  <section>
+    <h2>Tabla de ejemplo</h2>
+    <!-- Usamos atributos HTML (border, cellpadding, cellspacing) en lugar de CSS -->
+    <table border="1" cellpadding="6" cellspacing="0" align="center">
+      <caption><strong>Tabla: Horario semanal (resumen)</strong></caption>
+      <thead>
+        <tr>
+          <th>Día</th>
+          <th>Actividad</th>
+          <th>Duración</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lunes</td>
+          <td>Programación</td>
+          <td>2 h</td>
+        </tr>
+        <tr>
+          <td>Miércoles</td>
+          <td>Lectura</td>
+          <td>1.5 h</td>
+        </tr>
+        <tr>
+          <td>Sábado</td>
+          <td>Deporte</td>
+          <td>2 h</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- FRAMES / IFRAME -->
+  <section>
+    <h2>Frame / Iframe (¿sí o no?)</h2>
+    <p>Los <em>framesets</em> son obsoletos y no se recomiendan. Si necesitas incrustar contenido externo, usa <code>&lt;iframe&gt;</code> con precaución.</p>
+    <p>Ejemplo de &lt;iframe&gt; (contenido externo incrustado):</p>
+    <iframe src="https://example.com" width="400" height="200" title="Iframe de ejemplo"></iframe>
+    <p>Observación: algunos sitios impiden ser mostrados en iframe por políticas (X-Frame-Options).</p>
+  </section>
+
+  <!-- PIE DE PÁGINA con párrafo centrado -->
+  <footer>
+    <center>
+      <p>Ejemplo creado para mostrar elementos HTML básicos sin usar CSS externo ni interno.</p>
+    </center>
+  </footer>
+</body>
+</html>
